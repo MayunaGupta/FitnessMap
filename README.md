@@ -16,7 +16,7 @@ Working on fitness map project
 - What is the degree distribution of the gene correlation network?
 - Are there hub genes that correlate strongly with many others?
 
-### 3. Functional Analysis 
+### 3. Functional Analysis (Kate)
 - Are genes with similar functions more likely to be correlated?
 - How do correlations differ between:
   * Essential vs non-essential genes
@@ -55,7 +55,7 @@ Working on fitness map project
 - Can we validate correlations against known biological pathways?
 - Are there novel correlations that suggest unknown interactions?
 
-### 10. Technical Quality Assessment
+### 10. Technical Quality Assessment (Sarah)
 - Are there any systematic biases in the data?
 - How complete is the correlation network?
 - Are there genes with missing or unreliable data?
