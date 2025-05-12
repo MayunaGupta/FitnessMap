@@ -34,7 +34,7 @@ Working on fitness map project
   * Are there condition-specific correlation patterns?
   * How do stress responses affect gene correlations?
 
-### 6. Statistical Properties
+### 6. Statistical Properties (Tristan)
 - What is the significance threshold for correlations?
 - How many correlations are statistically significant?
 - What is the false discovery rate?
