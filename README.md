@@ -2,19 +2,21 @@
 Working on fitness map project
 ## Exploratory Data Analysis Questions
 
-### 1. Distribution Analysis
-- What is the overall distribution of correlation coefficients?
+### Subset: first 500 pairs alphabettically for the Ecoli fitness: fit_organism_Keio.tsv file 
+
+### 1. Distribution Analysis (Shay)
+- What is the overall distribution of correlation coefficients? 
 - Are correlations normally distributed?
 - What are the ranges of correlation values?
 - What proportion of correlations are positive vs negative?
 
-### 2. Network Properties
+### 2. Network Properties (Mayuna)
 - Which genes have the most correlations with other genes?
 - Are there distinct clusters of highly correlated genes?
 - What is the degree distribution of the gene correlation network?
 - Are there hub genes that correlate strongly with many others?
 
-### 3. Functional Analysis
+### 3. Functional Analysis 
 - Are genes with similar functions more likely to be correlated?
 - How do correlations differ between:
   * Essential vs non-essential genes
