@@ -1,0 +1,353 @@
+Column Analysis for fit_organism_Keio.tsv
+==================================================
+
+Total columns: 173
+
+All columns:
+  1. orgId
+  2. locusId
+  3. sysName
+  4. geneName
+  5. desc
+  6. set1IT003 D-Glucose (C)
+  7. set1IT004 D-Glucose (C)
+  8. set1IT005 D-Fructose (C)
+  9. set1IT006 D-Fructose (C)
+ 10. set1IT009 D-Maltose (C)
+ 11. set1IT010 D-Maltose (C)
+ 12. set1IT011 D-Xylose (C)
+ 13. set1IT012 D-Xylose (C)
+ 14. set1IT013 D-Galactose (C)
+ 15. set1IT014 D-Galactose (C)
+ 16. set1IT015 D-Ribose (C)
+ 17. set1IT016 D-Ribose (C)
+ 18. set1IT017 L-Fucose (C)
+ 19. set1IT018 L-Fucose (C)
+ 20. set1IT019 a-Ketoglutaric (C)
+ 21. set1IT020 a-Ketoglutaric (C)
+ 22. set1IT021 D-Glucuronic Acid (C)
+ 23. set1IT022 D-Glucuronic Acid (C)
+ 24. set1IT023 D-Gluconic Acid (C)
+ 25. set1IT024 D-Gluconic Acid (C)
+ 26. set1IT025 D-Glucose-6-Phosphate (C)
+ 27. set1IT026 D-Glucose-6-Phosphate (C)
+ 28. set1IT027 acetate (C)
+ 29. set1IT028 acetate (C)
+ 30. set1IT031 D-Lactate (C)
+ 31. set1IT032 D-Lactate (C)
+ 32. set1IT035 D,L-Lactate (C)
+ 33. set1IT036 D,L-Lactate (C)
+ 34. set1IT037 pyruvate (C)
+ 35. set1IT038 pyruvate (C)
+ 36. set1IT039 succinate (C)
+ 37. set1IT040 succinate (C)
+ 38. set1IT041 Glycolic Acid (C)
+ 39. set1IT042 Glycolic Acid (C)
+ 40. set1IT045 D-Galacturonic Acid (C)
+ 41. set1IT046 D-Galacturonic Acid (C)
+ 42. set1IT047 Glycerol (C)
+ 43. set1IT048 Glycerol (C)
+ 44. set1IT051 D-Sorbitol (C)
+ 45. set1IT052 D-Sorbitol (C)
+ 46. set1IT053 L-Malic (C)
+ 47. set1IT054 L-Malic (C)
+ 48. set1IT055 D-Trehalose (C)
+ 49. set1IT056 D-Trehalose (C)
+ 50. set1IT057 D-Serine (C)
+ 51. set1IT058 D-Serine (C)
+ 52. set1IT059 casaminos (C)
+ 53. set1IT060 casaminos (C)
+ 54. set1IT061 NAG (C)
+ 55. set1IT062 NAG (C)
+ 56. set1IT063 D-Glucosamine Hydrochloride (C)
+ 57. set1IT064 D-Glucosamine Hydrochloride (C)
+ 58. set1IT065 D-Mannose (C)
+ 59. set1IT066 D-Mannose (C)
+ 60. set1IT067 D-Galacturonic Acid (C) MOPS
+ 61. set1IT068 D-Galacturonic Acid (C) MOPS
+ 62. set1IT069 D-Glucose (C) MOPS
+ 63. set1IT070 D-Glucose (C) MOPS
+ 64. set1IT071 L-Arginine (N)
+ 65. set1IT072 L-Arginine (N)
+ 66. set1IT073 L-Aspartic Acid (N)
+ 67. set1IT074 L-Aspartic Acid (N)
+ 68. set1IT075 L-Serine (N)
+ 69. set1IT076 L-Serine (N)
+ 70. set1IT077 L-Asparagine (N)
+ 71. set1IT078 L-Asparagine (N)
+ 72. set1IT079 L-Glutamine (N)
+ 73. set1IT080 L-Glutamine (N)
+ 74. set1IT081 Glycine (N)
+ 75. set1IT082 Glycine (N)
+ 76. set1IT083 L-Alanine (N)
+ 77. set1IT084 L-Alanine (N)
+ 78. set1IT085 D-Serine (N)
+ 79. set1IT086 D-Serine (N)
+ 80. set1IT087 D-Alanine (N)
+ 81. set1IT088 D-Alanine (N)
+ 82. set1IT089 Gly-DL-Asp (N)
+ 83. set1IT090 Gly-DL-Asp (N)
+ 84. set1IT091 Gly-Glu (N)
+ 85. set1IT092 Gly-Glu (N)
+ 86. set1IT093 casaminos (N)
+ 87. set1IT094 casaminos (N)
+ 88. set1IT095 Putrescine (N)
+ 89. set1IT096 Putrescine (N)
+ 90. set2IT005 Adenosine (N)
+ 91. set2IT006 Adenosine (N)
+ 92. set2IT007 Cytidine (N)
+ 93. set2IT008 Cytidine (N)
+ 94. set2IT009 Ammonium chloride (N)
+ 95. set2IT010 Ammonium chloride (N)
+ 96. set2IT013 nitrite 10 mM
+ 97. set2IT014 nitrite 20 mM
+ 98. set2IT018 Chlorite 0.4 mM
+ 99. set2IT019 Chlorite 1.25 mM
+100. set2IT023 Chloride 750 mM
+101. set2IT026 Cephalothin 0.01 mg/ml
+102. set2IT029 A22 0.04 mg/ml
+103. set2IT030 A22 0.08 mg/ml
+104. set2IT033 Doxycycline hyclate 0.001 mg/ml
+105. set2IT037 Nickel (II) chloride 1 mM
+106. set2IT038 Cobalt chloride 0.32 mM
+107. set2IT039 copper (II) chloride 2 mM
+108. set2IT040 sodium fluoride 100 mM
+109. set2IT041 Thallium(I) acetate 0.0625 mg/ml
+110. set2IT042 Cisplatin 0.025 mg/ml
+111. set2IT043 Cisplatin 0.05 mg/ml
+112. set2IT044 Cisplatin 0.1 mg/ml
+113. set2IT045 LB
+114. set2IT046 Benzalkonium Chloride 0.004 mg/ml
+115. set2IT047 Aluminum chloride 5 mM
+116. set2IT048 benzoic 0.58 mg/ml
+117. set2IT049 Bacitracin 0.5 mg/ml
+118. set2IT050 Bacitracin 1 mg/ml
+119. set2IT051 Fusidic 0.03 mg/ml
+120. set2IT052 Fusidic 0.1 mg/ml
+121. set2IT053 Dimethyl Sulfoxide 7.5 vol%
+122. set2IT054 Dimethyl Sulfoxide 10 vol%
+123. set2IT056 Chloramphenicol 0.001 mg/ml
+124. set2IT057 Chloramphenicol 0.0025 mg/ml
+125. set2IT058 Chloramphenicol 0.005 mg/ml
+126. set2IT059 Tetracycline 0.0004 mg/ml
+127. set2IT060 Tetracycline 0.0008 mg/ml
+128. set2IT062 Spectinomycin 0.00625 mg/ml
+129. set2IT063 Spectinomycin 0.0125 mg/ml
+130. set2IT064 Carbenicillin 0.004 mg/ml
+131. set2IT065 Carbenicillin 0.008 mg/ml
+132. set2IT069 LB
+133. set2IT070 methylglyoxal 0.008 vol%
+134. set2IT071 2-Furfuraldehyde 0.125 vol%
+135. set2IT072 2-Furfuraldehyde 0.25 vol%
+136. set2IT074 5-Hydroxymethylfurfural 20 mM
+137. set2IT075 Vanillin 5 mM
+138. set2IT076 syringaldehyde 5 mM
+139. set2IT077 syringaldehyde 10 mM
+140. set2IT078 Dimethyl Sulfoxide 10 vol%
+141. set2IT080 Cholin acetate 75 mM
+142. set2IT081 Cholin acetate 150 mM
+143. set2IT082 acetate 70 mM
+144. set2IT083 acetate 140 mM
+145. set2IT085 1-ethyl-3-methylimidazolium acetate 30 mM
+146. set2IT086 1-ethyl-3-methylimidazolium acetate 60 mM
+147. set2IT087 1-ethyl-3-methylimidazolium chloride 40 mM
+148. set2IT088 1-ethyl-3-methylimidazolium chloride 80 mM
+149. set2IT089 L-Lysine 200 mM
+150. set2IT093 D-Galacturonic Acid (C) MOPS
+151. set2IT094 D-Glucose (C) MOPS
+152. set2IT095 D-Galacturonic Acid (C) M9
+153. set2IT096 D-Glucose (C) M9
+154. set52IT047 Carbon source D-Mannitol 10 mM
+155. set52IT048 Carbon source D-Mannitol 5 mM
+156. set52IT049 Carbon source D-Mannitol 2.5 mM
+157. set52IT051 Carbon source D-Mannitol 10 mM
+158. set52IT052 Carbon source D-Mannitol 5 mM
+159. set52IT053 Carbon source D-Mannitol 2.5 mM
+160. set5IT093 M63 no sulfur + 5 mM L-cys
+161. set5IT094 M63 no sulfur + 5 mM L-cys
+162. set5IT095 M63 no sulfur + 5 mM sulfate
+163. set5IT096 M63 no sulfur + 5 mM sulfate
+164. set6IT049 Nalidixic 0.006 mg/ml
+165. set6IT052 Phosphomycin 0.001 mg/ml
+166. set6IT054 D-Cycloserine 0.1 mg/ml
+167. set6IT068 outer cut, LB soft agar motility assay
+168. set6IT069 outer cut, LB soft agar motility assay
+169. set6IT070 outer cut, LB soft agar motility assay
+170. set6IT072 inner cut, LB soft agar motility assay
+171. set6IT073 inner cut, LB soft agar motility assay
+172. set6IT074 inner cut, LB soft agar motility assay
+173. set6IT075 inner cut, LB soft agar motility assay
+
+Set columns (168):
+- set1IT003 D-Glucose (C)
+- set1IT004 D-Glucose (C)
+- set1IT005 D-Fructose (C)
+- set1IT006 D-Fructose (C)
+- set1IT009 D-Maltose (C)
+- set1IT010 D-Maltose (C)
+- set1IT011 D-Xylose (C)
+- set1IT012 D-Xylose (C)
+- set1IT013 D-Galactose (C)
+- set1IT014 D-Galactose (C)
+- set1IT015 D-Ribose (C)
+- set1IT016 D-Ribose (C)
+- set1IT017 L-Fucose (C)
+- set1IT018 L-Fucose (C)
+- set1IT019 a-Ketoglutaric (C)
+- set1IT020 a-Ketoglutaric (C)
+- set1IT021 D-Glucuronic Acid (C)
+- set1IT022 D-Glucuronic Acid (C)
+- set1IT023 D-Gluconic Acid (C)
+- set1IT024 D-Gluconic Acid (C)
+- set1IT025 D-Glucose-6-Phosphate (C)
+- set1IT026 D-Glucose-6-Phosphate (C)
+- set1IT027 acetate (C)
+- set1IT028 acetate (C)
+- set1IT031 D-Lactate (C)
+- set1IT032 D-Lactate (C)
+- set1IT035 D,L-Lactate (C)
+- set1IT036 D,L-Lactate (C)
+- set1IT037 pyruvate (C)
+- set1IT038 pyruvate (C)
+- set1IT039 succinate (C)
+- set1IT040 succinate (C)
+- set1IT041 Glycolic Acid (C)
+- set1IT042 Glycolic Acid (C)
+- set1IT045 D-Galacturonic Acid (C)
+- set1IT046 D-Galacturonic Acid (C)
+- set1IT047 Glycerol (C)
+- set1IT048 Glycerol (C)
+- set1IT051 D-Sorbitol (C)
+- set1IT052 D-Sorbitol (C)
+- set1IT053 L-Malic (C)
+- set1IT054 L-Malic (C)
+- set1IT055 D-Trehalose (C)
+- set1IT056 D-Trehalose (C)
+- set1IT057 D-Serine (C)
+- set1IT058 D-Serine (C)
+- set1IT059 casaminos (C)
+- set1IT060 casaminos (C)
+- set1IT061 NAG (C)
+- set1IT062 NAG (C)
+- set1IT063 D-Glucosamine Hydrochloride (C)
+- set1IT064 D-Glucosamine Hydrochloride (C)
+- set1IT065 D-Mannose (C)
+- set1IT066 D-Mannose (C)
+- set1IT067 D-Galacturonic Acid (C) MOPS
+- set1IT068 D-Galacturonic Acid (C) MOPS
+- set1IT069 D-Glucose (C) MOPS
+- set1IT070 D-Glucose (C) MOPS
+- set1IT071 L-Arginine (N)
+- set1IT072 L-Arginine (N)
+- set1IT073 L-Aspartic Acid (N)
+- set1IT074 L-Aspartic Acid (N)
+- set1IT075 L-Serine (N)
+- set1IT076 L-Serine (N)
+- set1IT077 L-Asparagine (N)
+- set1IT078 L-Asparagine (N)
+- set1IT079 L-Glutamine (N)
+- set1IT080 L-Glutamine (N)
+- set1IT081 Glycine (N)
+- set1IT082 Glycine (N)
+- set1IT083 L-Alanine (N)
+- set1IT084 L-Alanine (N)
+- set1IT085 D-Serine (N)
+- set1IT086 D-Serine (N)
+- set1IT087 D-Alanine (N)
+- set1IT088 D-Alanine (N)
+- set1IT089 Gly-DL-Asp (N)
+- set1IT090 Gly-DL-Asp (N)
+- set1IT091 Gly-Glu (N)
+- set1IT092 Gly-Glu (N)
+- set1IT093 casaminos (N)
+- set1IT094 casaminos (N)
+- set1IT095 Putrescine (N)
+- set1IT096 Putrescine (N)
+- set2IT005 Adenosine (N)
+- set2IT006 Adenosine (N)
+- set2IT007 Cytidine (N)
+- set2IT008 Cytidine (N)
+- set2IT009 Ammonium chloride (N)
+- set2IT010 Ammonium chloride (N)
+- set2IT013 nitrite 10 mM
+- set2IT014 nitrite 20 mM
+- set2IT018 Chlorite 0.4 mM
+- set2IT019 Chlorite 1.25 mM
+- set2IT023 Chloride 750 mM
+- set2IT026 Cephalothin 0.01 mg/ml
+- set2IT029 A22 0.04 mg/ml
+- set2IT030 A22 0.08 mg/ml
+- set2IT033 Doxycycline hyclate 0.001 mg/ml
+- set2IT037 Nickel (II) chloride 1 mM
+- set2IT038 Cobalt chloride 0.32 mM
+- set2IT039 copper (II) chloride 2 mM
+- set2IT040 sodium fluoride 100 mM
+- set2IT041 Thallium(I) acetate 0.0625 mg/ml
+- set2IT042 Cisplatin 0.025 mg/ml
+- set2IT043 Cisplatin 0.05 mg/ml
+- set2IT044 Cisplatin 0.1 mg/ml
+- set2IT045 LB
+- set2IT046 Benzalkonium Chloride 0.004 mg/ml
+- set2IT047 Aluminum chloride 5 mM
+- set2IT048 benzoic 0.58 mg/ml
+- set2IT049 Bacitracin 0.5 mg/ml
+- set2IT050 Bacitracin 1 mg/ml
+- set2IT051 Fusidic 0.03 mg/ml
+- set2IT052 Fusidic 0.1 mg/ml
+- set2IT053 Dimethyl Sulfoxide 7.5 vol%
+- set2IT054 Dimethyl Sulfoxide 10 vol%
+- set2IT056 Chloramphenicol 0.001 mg/ml
+- set2IT057 Chloramphenicol 0.0025 mg/ml
+- set2IT058 Chloramphenicol 0.005 mg/ml
+- set2IT059 Tetracycline 0.0004 mg/ml
+- set2IT060 Tetracycline 0.0008 mg/ml
+- set2IT062 Spectinomycin 0.00625 mg/ml
+- set2IT063 Spectinomycin 0.0125 mg/ml
+- set2IT064 Carbenicillin 0.004 mg/ml
+- set2IT065 Carbenicillin 0.008 mg/ml
+- set2IT069 LB
+- set2IT070 methylglyoxal 0.008 vol%
+- set2IT071 2-Furfuraldehyde 0.125 vol%
+- set2IT072 2-Furfuraldehyde 0.25 vol%
+- set2IT074 5-Hydroxymethylfurfural 20 mM
+- set2IT075 Vanillin 5 mM
+- set2IT076 syringaldehyde 5 mM
+- set2IT077 syringaldehyde 10 mM
+- set2IT078 Dimethyl Sulfoxide 10 vol%
+- set2IT080 Cholin acetate 75 mM
+- set2IT081 Cholin acetate 150 mM
+- set2IT082 acetate 70 mM
+- set2IT083 acetate 140 mM
+- set2IT085 1-ethyl-3-methylimidazolium acetate 30 mM
+- set2IT086 1-ethyl-3-methylimidazolium acetate 60 mM
+- set2IT087 1-ethyl-3-methylimidazolium chloride 40 mM
+- set2IT088 1-ethyl-3-methylimidazolium chloride 80 mM
+- set2IT089 L-Lysine 200 mM
+- set2IT093 D-Galacturonic Acid (C) MOPS
+- set2IT094 D-Glucose (C) MOPS
+- set2IT095 D-Galacturonic Acid (C) M9
+- set2IT096 D-Glucose (C) M9
+- set52IT047 Carbon source D-Mannitol 10 mM
+- set52IT048 Carbon source D-Mannitol 5 mM
+- set52IT049 Carbon source D-Mannitol 2.5 mM
+- set52IT051 Carbon source D-Mannitol 10 mM
+- set52IT052 Carbon source D-Mannitol 5 mM
+- set52IT053 Carbon source D-Mannitol 2.5 mM
+- set5IT093 M63 no sulfur + 5 mM L-cys
+- set5IT094 M63 no sulfur + 5 mM L-cys
+- set5IT095 M63 no sulfur + 5 mM sulfate
+- set5IT096 M63 no sulfur + 5 mM sulfate
+- set6IT049 Nalidixic 0.006 mg/ml
+- set6IT052 Phosphomycin 0.001 mg/ml
+- set6IT054 D-Cycloserine 0.1 mg/ml
+- set6IT068 outer cut, LB soft agar motility assay
+- set6IT069 outer cut, LB soft agar motility assay
+- set6IT070 outer cut, LB soft agar motility assay
+- set6IT072 inner cut, LB soft agar motility assay
+- set6IT073 inner cut, LB soft agar motility assay
+- set6IT074 inner cut, LB soft agar motility assay
+- set6IT075 inner cut, LB soft agar motility assay
+
+Media/Condition columns (0):
+
+Stress/Treatment columns (0):

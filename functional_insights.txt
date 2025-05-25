@@ -1,0 +1,39 @@
+FUNCTIONAL GENE FITNESS ANALYSIS - KEY INSIGHTS
+============================================================
+
+Carbon Sources:
+  Conditions analyzed: 62
+  Mean fitness: -0.190
+  Top genes: b1085, rpoS, rbsR, hfq, rpsG
+  Top gene pairs:
+    - b1085 & rpoS (fitness: 1.764)
+    - b1085 & rbsR (fitness: 1.643)
+    - rpoS & rbsR (fitness: 1.614)
+
+Nitrogen Sources:
+  Conditions analyzed: 32
+  Mean fitness: -0.169
+  Top genes: rpoS, b1085, cspC, sspA, hepA
+  Top gene pairs:
+    - cspC & rpoS (fitness: 1.537)
+    - rpoS & sspA (fitness: 1.534)
+    - rpoS & rraA (fitness: 1.412)
+
+Antibiotics:
+  Conditions analyzed: 18
+  Mean fitness: -0.049
+  Top genes: acrR, mdoH, mdoG, marR, nudB
+  Top gene pairs:
+    - acrR & mdoH (fitness: 2.845)
+    - acrR & mdoG (fitness: 2.843)
+    - acrR & marR (fitness: 2.822)
+
+Metal Stress:
+  Conditions analyzed: 8
+  Mean fitness: -0.075
+  Top genes: pitA, fre, cyaA, nuoI, azoR
+  Top gene pairs:
+    - pitA & fre (fitness: 1.270)
+    - pitA & cyaA (fitness: 1.269)
+    - nuoI & pitA (fitness: 1.268)
+
