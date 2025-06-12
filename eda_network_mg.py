@@ -33,16 +33,19 @@ def gls_correlation(x, y):
     return np.sqrt(results.rsquared)
 
 # Transpose the matrix to get genes as rows
-fitness_matrix_t = fitness_matrix.T
+fitness_matrix_t = fitness_matrix
 
 # Create correlation matrix using GLS between genes
 correlation_matrix = pd.DataFrame(index=fitness_matrix_t.columns, columns=fitness_matrix_t.columns)
-for i in range(len(fitness_matrix_t.columns)):
-    for j in range(len(fitness_matrix_t.columns)):
-        if i != j:
-            correlation_matrix.iloc[i, j] = gls_correlation(fitness_matrix_t.iloc[:, i], fitness_matrix_t.iloc[:, j])
-        else:
-            correlation_matrix.iloc[i, j] = 1.0
+# for i in range(len(fitness_matrix_t.columns)):
+#     for j in range(len(fitness_matrix_t.columns)):
+#         if i != j:
+#             correlation_matrix.iloc[i, j] = gls_correlation(fitness_matrix_t.iloc[:, i], fitness_matrix_t.iloc[:, j])
+#         else:
+#             correlation_matrix.iloc[i, j] = 1.0
+
+correlation_matrix = fitness_matrix_t.corr(method='pearson')
+
 
 # Display the correlation matrix
 print("\nCorrelation Matrix Shape:", correlation_matrix.shape)
@@ -50,14 +53,14 @@ print("\nFirst few rows and columns of correlation matrix:")
 print(correlation_matrix.iloc[:5, :5])
 
 # Save correlation matrix to a file
-correlation_matrix.to_csv('gene_correlations_gls.tsv', sep='\t')
+# correlation_matrix.to_csv('gene_correlations_gls.tsv', sep='\t')
 
 # Display summary statistics of correlations
 print("\nCorrelation Statistics:")
 print("Mean correlation:", correlation_matrix.values[np.triu_indices_from(correlation_matrix, k=1)].mean())
 print("Max correlation:", correlation_matrix.values[np.triu_indices_from(correlation_matrix, k=1)].max())
 print("Min correlation:", correlation_matrix.values[np.triu_indices_from(correlation_matrix, k=1)].min())
-'''
+
 # Identify the most correlated gene pairs
 # Set a threshold for correlation
 threshold = 0.8
@@ -74,7 +77,7 @@ plt.figure(figsize=(12, 10))
 sns.heatmap(correlation_matrix, cmap='coolwarm', annot=True, fmt=".2f", square=True)
 plt.title('Gene Correlation Matrix')
 plt.show()
-
+'''
 # Optional: Create a network graph of highly correlated genes
 import networkx as nx
 
