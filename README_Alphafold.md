@@ -2,7 +2,7 @@ Running Alphafold 2 to predict protein-protein interactions for top gene pairs
 The following scripts need to be run in order:
 1.	250601_Get_protein_sequences_for_gene_pairs.ipynb
 2.	250601_AlphaFold2_Protein_Interactions.ipynb
-3.	250601_Get_min_PAE_interaction_Alphafold_prediction.ipynb
+3.	Get_min_PAE_interaction_Alphafold_prediction.ipynb
 
 1. Takes the following inputs:
 - 'ecoli_gls_coefficients.csv’, which is obtained from running GLS.py
@@ -25,7 +25,9 @@ It takes a very long time to run each prediction, which may be because I only ha
 
 3. Takes the following inputs:
 - "top_interaction_sequences.csv"
+- "least_interaction_sequences.csv"
 - Path to the Alphafold_2_outputs folder that contains all the .zip folders with outputs, each .zip folder has a gene pair’s protein interaction prediction
--Min PAE of interaction less than 1.7 is good evidence for a protein-protein interaction. Anything less than 10 might be a possible interaction.
+- Path to an Alphafold 3 outputs folder, if predictions obtained from the AlphaFold server (https://alphafoldserver.com/)
+-Min PAE of interaction less than 1.5 is good evidence for a protein-protein interaction. Anything less than 10 might be a possible interaction.
 
-This script will add the Min PAE and Mean PAE to the corresponding gene pair row in the data frame. Gene pairs for which we haven’t run Alphafold to analyze yet will be written as NaN for Min PAE and Mean PAE.
+This script will add the Min PAE to the corresponding gene pair row in the data frame. 
