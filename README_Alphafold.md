@@ -25,7 +25,7 @@ It takes a very long time to run each prediction, which may be because I only ha
 
 3. Takes the following inputs:
 - "top_interaction_sequences.csv"
-- "least_interaction_sequences.csv"
+- "least_interaction_sequences.csv" (obtained in the same way as "top_interaction_sequences.csv", but specifying the lowest-magnitude GLS coefficients in GLS.py)
 - Path to the Alphafold_2_outputs folder that contains all the .zip folders with outputs, each .zip folder has a gene pair’s protein interaction prediction
 - Path to an Alphafold 3 outputs folder, if predictions obtained from the AlphaFold server (https://alphafoldserver.com/)
 -Min PAE of interaction less than 1.5 is good evidence for a protein-protein interaction. Anything less than 10 might be a possible interaction.
