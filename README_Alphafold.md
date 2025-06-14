@@ -8,11 +8,8 @@ The following scripts need to be run in order:
 
 #1 Takes the following inputs:
 - 'ecoli_gls_coefficients.csv’, which is obtained from running GLS.py
-- 
 -'fit_organism_Keio.tsv', which is downloaded from the E.coli page of the Fitness Browser database. The download link is titled ‘Fitness values (tab-delimited)’ (https://fit.genomics.lbl.gov/cgi-bin/org.cgi?orgId=Keio).
-
 -‘organism_Keio.faa’, which is also downloaded from the E.coli page of Fitness Browser. The download link is titled ‘Protein sequences (fasta)’
-
 -‘uniprotkb_ecoli_AND_model_organism_8333_2025_06_02.tsv’, which provides a list of all the genes and protein sequences in E.coli from UniProt. This is needed for protein sequences which are missing in ‘organism_Keio.faa’. On UniprotKB ("https://www.uniprot.org/uniprotkb?dir=ascend&facets=model_organism%3A83333&query=ecoli&sort=organism_name" search ecoli and download as a tsv, making sure to include the Gene Names and the Sequence columns.
 
 ****All these files are available at the shared google drive folder https://drive.google.com/drive/folders/1-CfFsDSErSE719UJ20IgW3lo0sXQXNh1?usp=drive_link 
