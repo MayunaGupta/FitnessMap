@@ -1,4 +1,5 @@
-Running Alphafold 2 to predict protein-protein interactions for top gene pairs
+Running Alphafold 2 to predict protein-protein interactions for top gene pairs.
+
 The following scripts need to be run in order:
 1.	250601_Get_protein_sequences_for_gene_pairs.ipynb
 2.	250601_AlphaFold2_Protein_Interactions.ipynb
