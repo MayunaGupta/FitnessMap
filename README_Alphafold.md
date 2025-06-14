@@ -5,6 +5,7 @@ The following scripts need to be run in order:
 2.	250601_AlphaFold2_Protein_Interactions.ipynb
 3.	Get_min_PAE_interaction_Alphafold_prediction.ipynb
 
+
 1. Takes the following inputs:
 - 'ecoli_gls_coefficients.csv’, which is obtained from running GLS.py
 -'fit_organism_Keio.tsv', which is downloaded from the E.coli page of the Fitness Browser database. The download link is titled ‘Fitness values (tab-delimited)’ (https://fit.genomics.lbl.gov/cgi-bin/org.cgi?orgId=Keio). 
