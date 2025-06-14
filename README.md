@@ -12,7 +12,7 @@ FitnessMap/
 ├── visualise_GLS.ipynb                       # Visualization notebook
 ├── 250601_Get_protein_sequences_for_gene_pairs.ipynb    # Protein sequence extraction
 ├── 250601_AlphaFold2_Protein_Interactions.ipynb         # AlphaFold2 predictions
-├── 250601_Get_min_PAE_interaction_Alphafold_prediction.ipynb  # PAE analysis
+├── Get_min_PAE_interaction_Alphafold_prediction.ipynb   # PAE analysis
 └── README.md                                 # This file
 ```
 
@@ -42,14 +42,15 @@ FitnessMap/
 - **Output**: ZIP files containing AlphaFold2 predictions
 - **Note**: Designed to run on Google Colab with GPU support
 
-### 4. PAE Analysis (`250601_Get_min_PAE_interaction_Alphafold_prediction.ipynb`)
+### 4. PAE Analysis (`Get_min_PAE_interaction_Alphafold_prediction.ipynb`)
 - **Purpose**: Analyzes prediction accuracy using PAE metrics
 - **Inputs**:
   - `top_interaction_sequences.csv`
-  - AlphaFold2 output ZIP files
+  - `least_interaction_sequences.csv` (obtained in the same manner as `top_interaction_sequences.csv`, but selecting lowest-magnitude GLS coefficients in GLS.py)
+  - AlphaFold 2 or AlphaFold 3 output ZIP files
 - **Output**: Updated dataframe with PAE metrics
 - **Interpretation**:
-  - Min PAE < 1.7: Strong evidence for interaction
+  - Min PAE < 1.5: Strong evidence for interaction
   - Min PAE < 10: Possible interaction
 
 ## Installation
@@ -86,7 +87,7 @@ python GLS.py
 - Upload results to shared folder: https://drive.google.com/drive/folders/1Gz7YlvsNBLRM48aVSyd6X7ODeR3TPklX
 
 ### 4. Analyze PAE Metrics
-- Open `250601_Get_min_PAE_interaction_Alphafold_prediction.ipynb`
+- Open `Get_min_PAE_interaction_Alphafold_prediction.ipynb`
 - Run analysis on AlphaFold2 outputs
 
 ## Key Features
@@ -112,7 +113,7 @@ python GLS.py
 - Negative coefficients suggest antagonistic interactions
 
 ### Structural Validation
-- Min PAE < 1.7: High confidence in predicted interaction
+- Min PAE < 1.5: High confidence in predicted interaction
 - Min PAE < 10: Possible interaction, requires further validation
 - Higher PAE values: Less confident predictions
 
@@ -136,7 +137,7 @@ python GLS.py
 Feel free to submit issues and enhancement requests!
 
 ## Contributors
-1. Mayuna Gupta, Sarah Johnson, Tristan Ferdinand, Kate Zhou, Akshay Uppal, Adrian Jinich
+1. Mayuna Gupta, Sarah Johnson, Tristan Ferdinand, Kate Zhou, Adrian Jinich
 
 ## Contact
 
